@@ -1,0 +1,1 @@
+class NumberTrivia extends Equatable {}
