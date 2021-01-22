@@ -8,6 +8,7 @@ import 'package:mockito/mockito.dart';
 class MockNumberTriviaRepository extends Mock
     implements NumberTriviaRepository {}
 
+//executa o teste
 void main() {
   GetConcreteNumberTrivia usecase;
   MockNumberTriviaRepository mockNumberTriviaRepository;
