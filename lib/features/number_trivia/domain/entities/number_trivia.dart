@@ -11,6 +11,7 @@ class NumberTrivia extends Equatable {
     @required this.number,
   });
 
+  //mudou com a atualização do equatable, diferente do vídeo
   @override
   List<Object> get props => [text, number];
 }
